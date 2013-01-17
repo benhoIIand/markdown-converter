@@ -1,4 +1,4 @@
-markdown-converter
+Markdown Converter
 ==================
 
-An online Markdown converter 
+An online Markdown converter
