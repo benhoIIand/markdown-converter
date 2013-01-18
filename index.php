@@ -2,16 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
 	<title>Markdown Converter</title>
-
 	<link rel="stylesheet" href="css/page.css">
+
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 
-	<div id="header">
+	<header id="header">
 		<strong>Markdown Converter</strong>
 		<span id="add_css">Add Custom CSS</span>
-	</div>
+	</header>
 
 	<textarea id="code_view" class="view" placeholder="Enter markdown content"></textarea>
 	<div id="ruler" class="ruler"></div>
