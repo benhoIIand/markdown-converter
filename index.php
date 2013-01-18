@@ -9,6 +9,9 @@
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<!--[if IE 7]>
+	<script>alert("This app will work in your browser, but it won't look correct.\n\nUPDATE YOUR BROWSER!!! IT'S NOT 1998");</script>
+	<![endif]-->
 </head>
 <body>
 
@@ -35,5 +38,16 @@
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/converter.js"></script>
+
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-37766476-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
 </body>
 </html>
